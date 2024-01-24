@@ -7,6 +7,7 @@ include_once('navbar.php');
         <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+    <div class="nav">
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Informatica Upload</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +22,10 @@ include_once('navbar.php');
         </ul>
 
 
-<a class="btn btn-primary" href="login.php">Login</a>
+    <a class="btn btn-primary" href="login.php">Login</a>
     </div>
     </nav>
+    </div>
 
 <!-- <form method="post" action="login.php">
 
